@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="softwaretestingmaterial" duration-ms="17" started-at="2019-06-18T14:00:06Z" finished-at="2019-06-18T14:00:06Z">
+    <groups>
+      <group name="SecondGroup">
+        <method signature="DependsOnMethodsTestCase.testCase2()[pri:0, instance:com.testngscript.DependsOnMethodsTestCase@737996a0]" name="testCase2" class="com.testngscript.DependsOnMethodsTestCase"/>
+      </group> <!-- SecondGroup -->
+      <group name="FirstGroup">
+        <method signature="DependsOnMethodsTestCase.testCase1()[pri:0, instance:com.testngscript.DependsOnMethodsTestCase@737996a0]" name="testCase1" class="com.testngscript.DependsOnMethodsTestCase"/>
+      </group> <!-- FirstGroup -->
+    </groups>
+    <test name="testngTest" duration-ms="17" started-at="2019-06-18T14:00:06Z" finished-at="2019-06-18T14:00:06Z">
+      <class name="com.testngscript.DependsOnMethodsTestCase">
+        <test-method status="PASS" signature="testCase2()[pri:0, instance:com.testngscript.DependsOnMethodsTestCase@737996a0]" name="testCase2" duration-ms="5" started-at="2019-06-18T19:30:06Z" finished-at="2019-06-18T19:30:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+        <test-method status="PASS" signature="testCase1()[pri:0, instance:com.testngscript.DependsOnMethodsTestCase@737996a0]" name="testCase1" duration-ms="1" depends-on-groups="SecondGroup" started-at="2019-06-18T19:30:06Z" finished-at="2019-06-18T19:30:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+      </class> <!-- com.testngscript.DependsOnMethodsTestCase -->
+    </test> <!-- testngTest -->
+  </suite> <!-- softwaretestingmaterial -->
+</testng-results>
